@@ -44,12 +44,12 @@ export default function HomePage() {
     {
       name: "श्रीमती रिमू चौधरी",
       designation: "उजुरी प्रशासक",
-      photo: "/placeholder.svg?height=200&width=200",
+      photo: "/img/2.jpg?height=200&width=200",
     },
     {
       name: "श्री सरोज कुमार झा",
       designation: "न्यायिक समिति सदस्य",
-      photo: "/placeholder.svg?height=200&width=200",
+      photo: "/img/3.jpg?height=200&width=200",
     },
   ]
 
@@ -242,7 +242,7 @@ export default function HomePage() {
                 <div className="card-content chairperson-content">
                   <div className="chairperson-photo">
                     <Image
-                      src="/placeholder.svg?height=128&width=128"
+                      src="/img/1.jpg?height=128&width=128"
                       alt="Chairperson"
                       width={128}
                       height={128}
