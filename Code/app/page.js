@@ -42,18 +42,13 @@ export default function HomePage() {
 
   const members = [
     {
-      name: "श्री राम बहादुर थापा",
-      designation: "सदस्य",
+      name: "श्रीमती रिमू चौधरी",
+      designation: "उजुरी प्रशासक",
       photo: "/placeholder.svg?height=200&width=200",
     },
     {
-      name: "श्रीमती सीता देवी शर्मा",
-      designation: "सदस्य",
-      photo: "/placeholder.svg?height=200&width=200",
-    },
-    {
-      name: "श्री गोपाल प्रसाद पौडेल",
-      designation: "सदस्य सचिव",
+      name: "श्री सरोज कुमार झा",
+      designation: "न्यायिक समिति सदस्य",
       photo: "/placeholder.svg?height=200&width=200",
     },
   ]
@@ -254,8 +249,8 @@ export default function HomePage() {
                       className="photo-image"
                     />
                   </div>
-                  <h3 className="chairperson-name">श्री हरि प्रसाद अधिकारी</h3>
-                  <p className="chairperson-title">न्यायिक समिति अध्यक्ष</p>
+                  <h3 className="chairperson-name">श्रीमती फुल कुमारी साह</h3>
+                  <p className="chairperson-title">न्यायिक समिति उपाध्यक्ष</p>
                   <blockquote className="chairperson-quote">
                     "न्याय र सत्यको पक्षमा उभिएर हामी जनताको सेवा गर्छौं। प्रत्येक उजुरीलाई गम्भीरताका साथ लिएर निष्पक्ष न्याय प्रदान
                     गर्नु हाम्रो दायित्व हो।"
@@ -331,10 +326,7 @@ export default function HomePage() {
                 <div className="address-item">
                   <MapPin className="address-icon" />
                   <div className="address-text">
-                    <p>न्यायिक समिति</p>
-                    <p>इजलास गाउँपालिका</p>
-                    <p>जिल्ला कार्यालय परिसर</p>
-                    <p>काठमाडौं, नेपाल</p>
+                    <p>तिलाठी कोईलाडी, नेपाल</p>
                   </div>
                 </div>
               </div>
@@ -373,11 +365,11 @@ export default function HomePage() {
               <div className="footer-content">
                 <div className="contact-item">
                   <Phone className="contact-icon" />
-                  <span>+977-1-4567890</span>
+                  <span>+977-9827758718</span>
                 </div>
                 <div className="contact-item">
                   <Mail className="contact-icon" />
-                  <span>info@ijalas.gov.np</span>
+                  <span>contact@tilathikoiladimun.gov.np</span>
                 </div>
               </div>
             </div>
@@ -401,7 +393,7 @@ export default function HomePage() {
           </div>
 
           <div className="footer-copyright">
-            <p>© २०२४ न्यायिक समिति इजलास गाउँपालिका। सबै अधिकार सुरक्षित।</p>
+            <p>© तिलाठी कोईलाडी २०२४ न्यायिक समिति इजलास गाउँपालिका। सबै अधिकार सुरक्षित।</p>
           </div>
         </div>
       </footer>
