@@ -1,0 +1,359 @@
+/* Matchmakers page styles */
+.matchmakers-container {
+  min-height: 100vh;
+  background-color: var(--gray-50);
+}
+
+.matchmakers-header {
+  background-color: var(--nepal-blue);
+  color: white;
+  padding: 2rem 0;
+}
+
+.matchmakers-header-content {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.matchmakers-header-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.matchmakers-back-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.matchmakers-back-link:hover {
+  color: var(--gray-200);
+}
+
+.matchmakers-back-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+.matchmakers-header h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.matchmakers-header p {
+  color: var(--blue-100);
+  margin: 0.5rem 0 0 0;
+}
+
+.matchmakers-main {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.matchmakers-search-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  margin-bottom: 2rem;
+}
+
+.matchmakers-search-content {
+  padding: 1.5rem;
+}
+
+.matchmakers-search-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.matchmakers-search-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--nepal-blue);
+}
+
+.matchmakers-search-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--nepal-blue);
+  margin: 0;
+}
+
+.matchmakers-search-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.matchmakers-search-field {
+  position: relative;
+}
+
+.matchmakers-search-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem 0.5rem 2.5rem;
+  border: 1px solid var(--gray-300);
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  transition: border-color 0.2s;
+}
+
+.matchmakers-search-input:focus {
+  outline: none;
+  border-color: var(--nepal-blue);
+  box-shadow: 0 0 0 3px rgba(0, 56, 147, 0.1);
+}
+
+.matchmakers-search-input-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1rem;
+  height: 1rem;
+  color: var(--gray-400);
+}
+
+.matchmakers-results-summary {
+  margin-bottom: 1.5rem;
+}
+
+.matchmakers-results-text {
+  color: var(--gray-600);
+}
+
+.matchmakers-results-count {
+  font-weight: 600;
+  color: var(--nepal-blue);
+}
+
+.matchmakers-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.matchmaker-card {
+  border: 2px solid var(--gray-200);
+  border-radius: 0.5rem;
+  background-color: white;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.matchmaker-card:hover {
+  border-color: var(--nepal-red);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.matchmaker-card-content {
+  padding: 1.5rem;
+}
+
+.matchmaker-profile-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.matchmaker-photo {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 auto 0.75rem;
+}
+
+.matchmaker-photo-image {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--nepal-blue);
+}
+
+.matchmaker-name {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--nepal-blue);
+  margin: 0 0 0.5rem 0;
+}
+
+.matchmaker-ward {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.matchmaker-ward-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.matchmaker-ward-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  color: var(--nepal-red);
+}
+
+.matchmaker-ward-text {
+  font-weight: 500;
+  color: var(--nepal-red);
+}
+
+.matchmaker-bio {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  margin-bottom: 1rem;
+  text-align: center;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.matchmaker-contact {
+  text-align: center;
+}
+
+.matchmaker-contact-button {
+  background-color: var(--nepal-blue);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: inline-flex;
+  align-items: center;
+}
+
+.matchmaker-contact-button:hover {
+  background-color: #002a7a;
+}
+
+.matchmaker-contact-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.matchmakers-empty-state {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.matchmakers-empty-icon {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto 1rem;
+  background-color: var(--gray-100);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.matchmakers-empty-icon-svg {
+  width: 2rem;
+  height: 2rem;
+  color: var(--gray-400);
+}
+
+.matchmakers-empty-text {
+  color: var(--gray-500);
+  margin-bottom: 1rem;
+}
+
+.matchmakers-reset-button {
+  background: none;
+  border: 1px solid var(--nepal-red);
+  color: var(--nepal-red);
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.matchmakers-reset-button:hover {
+  background-color: var(--nepal-red);
+  color: white;
+}
+
+.matchmakers-cta {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.matchmakers-cta-card {
+  background: linear-gradient(to right, var(--nepal-blue), var(--nepal-red));
+  color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.matchmakers-cta-content {
+  padding: 2rem;
+}
+
+.matchmakers-cta-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+.matchmakers-cta-text {
+  margin: 0 0 1.5rem 0;
+}
+
+.matchmakers-cta-button {
+  background-color: white;
+  color: var(--nepal-blue);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.matchmakers-cta-button:hover {
+  background-color: var(--gray-100);
+}
+
+@media (min-width: 768px) {
+  .matchmakers-search-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .matchmakers-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .matchmakers-header h1 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .matchmakers-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .matchmakers-header-content {
+    padding: 0 1.5rem;
+  }
+
+  .matchmakers-main {
+    padding: 2rem 1.5rem;
+  }
+}

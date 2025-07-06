@@ -84,7 +84,7 @@ export default function HomePage() {
           <div className="nav-logo">
             <div className="nav-logo-text">
               <h1>न्यायिक समिति</h1>
-              <p>इजलास गाउँपालिका</p>
+              <p>तिलाठी कोईलाडी गाउँपालिका</p>
             </div>
           </div>
 
@@ -146,7 +146,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section id="home" className="hero">
         <div className="hero-content">
-          <h1 className="hero-title">न्यायिक समिति इजलास</h1>
+          <h1 className="hero-title">न्यायिक समिति तिलाठी कोईलाडी</h1>
           <p className="hero-subtitle">इलेक्ट्रोनिक उजुरी व्यवस्थापन पोर्टल</p>
           <p className="hero-description">
             न्याय र पारदर्शिताको साथ सेवा प्रदान गर्दै, तपाईंका समस्याहरूको द्रुत र प्रभावकारी समाधान
@@ -393,7 +393,7 @@ export default function HomePage() {
           </div>
 
           <div className="footer-copyright">
-            <p>© तिलाठी कोईलाडी २०२४ न्यायिक समिति इजलास गाउँपालिका। सबै अधिकार सुरक्षित।</p>
+            <p>© २०२४ न्यायिक समिति तिलाठी कोईलाडी गाउँपालिका। सबै अधिकार सुरक्षित।</p>
           </div>
         </div>
       </footer>
